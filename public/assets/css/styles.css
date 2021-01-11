@@ -1,0 +1,32 @@
+.container {
+    width: 96%;
+}
+
+#textarea-title {
+    color: white;
+    display: block;
+    position: relative;
+    top: -40%;
+    left: 5%;
+    z-index: 1;
+}
+
+#create-form {
+    display: block;
+    position: relative;
+    top: -34%;
+    left: 5%;
+    width: 52%;
+    z-index: 1;
+}
+
+
+#burgers-list {
+    background-color: rgb(236, 44, 44);
+    z-index: 1;
+
+}
+
+#devoured-list {
+    background-color: rgb(231, 192, 19);
+}

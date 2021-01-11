@@ -3,23 +3,23 @@ var orm = require("../config/orm.js");
 
 var burgers = {
   all: function(cb) {
-    orm.all("burgers", function(res) {
+    orm.Selectall("burgers", function(res) {
       cb(res);
     });
   },
   // The variables cols and vals are arrays.
-  create: function(cols, vals, cb) {
-    burgers.create("burgers", cols, vals, function(res) {
+  create: function(colOne, colTwo, valOne, valTwo, cb) {
+    orm.insertOne("burgers", colOne, colTwo, valOne, valTwo, function(res) {
       cb(res);
     });
   },
-  update: function(objColVals, condition, cb) {
-    burgers.update("burgers", objColVals, condition, function(res) {
+  update: function(updateCol, updateVal, conditionCol, conditionVal, cb) {
+    orm.updateOne("burgers", updateCol, updateVal, conditionCol, conditionVal, function(res) {
       cb(res);
     });
   },
   delete: function(condition, cb) {
-    burgers.delete("burgers", condition, function(res) {
+    orm.delete("burgers", condition, function(res) {
       cb(res);
     });
   }

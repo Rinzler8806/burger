@@ -1,10 +1,10 @@
 USE burgers_db;
 
-INSERT INTO burgers (name)
-VALUES ("Double Cheeseburger");
+INSERT INTO burgers (name, devoured)
+VALUES ("Double Cheeseburger", false);
 
-INSERT INTO burgers (name)
-VALUES ("Ultimate Cheeseburger");
+INSERT INTO burgers (name, devoured)
+VALUES ("Ultimate Cheeseburger", false);
 
-INSERT INTO burgers (name)
-VALUES ("Mushroom Cheeseburger");
+INSERT INTO burgers (name, devoured)
+VALUES ("Mushroom Cheeseburger", false);

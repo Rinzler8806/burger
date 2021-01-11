@@ -1,7 +1,9 @@
-<h1>Burgers!</h1>
+<div class="container">
+<background-image></background-image>
+<h1>Cure that burger craving!</h1>
 
 <h2>Burgers that are tasty!</h2>
-
+<div class="col-3" id="burgers-list">
 <ul>
   {{#each burgers}}
     {{#unless devoured}}
@@ -9,7 +11,9 @@
     {{/unless}}
   {{/each}}
 </ul>
+</div>
 
+ <div class="col-3" id="devoured-list">
 <h2>Burgers that are devoured!</h2>
 
 <ul>
@@ -19,6 +23,7 @@
     {{/if}}
   {{/each}}
 </ul>
+  </div>
 
 <h2>Add Burgers</h2>
 <form class="create-form">
@@ -31,8 +36,10 @@
   <div class="form-group">
     <label for="devoured">devoured?</label><br>
     <input type="radio" name="devoured" value="1" checked> devoured!<br>
-    <input type="radio" name="devoured" value="0"> Next burger
+    <input type="radio" name="devoured" value="0"> Send to Tasty Burger List
   </div>
 
-  <button type="submit">Add Burger</button>
+  <button type="submit">Submit</button>
 </form>>
+
+</div>
