@@ -1,14 +1,8 @@
 .container {
-    width: 96%;
-}
-
-#textarea-title {
-    color: white;
-    display: block;
-    position: relative;
-    top: -40%;
-    left: 5%;
-    z-index: 1;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    padding-left: 20px;
 }
 
 #create-form {
@@ -29,4 +23,15 @@
 
 #devoured-list {
     background-color: rgb(231, 192, 19);
+}
+
+.form-group{
+    color:black;
+    font-weight: bold;
+}
+
+.background{
+    background-image: url('../images/burgerpic.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
