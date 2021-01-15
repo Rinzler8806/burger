@@ -30,7 +30,7 @@
     font-weight: bold;
 }
 
-.background{
+body{
     background-image: url('../images/burgerpic.png');
     background-repeat: no-repeat;
     background-size: cover;
