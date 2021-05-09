@@ -6,4 +6,4 @@ The app allows the user to add burgers, delete burgers, and update the log for w
 
 Please visit the following address to use the burger App. https://ancient-savannah-97326.herokuapp.com/
 
-![](\public\assets\images\demopic.png)
+![](demopic.png)
