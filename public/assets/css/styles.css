@@ -25,12 +25,12 @@
     background-color: rgb(231, 192, 19);
 }
 
-.form-group{
-    color:black;
+.form-group {
+    color: black;
     font-weight: bold;
 }
 
-body{
+body {
     background-image: url('../images/burgerpic.png');
     background-repeat: no-repeat;
     background-size: cover;
