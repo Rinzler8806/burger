@@ -25,9 +25,18 @@
     background-color: rgb(231, 192, 19);
 }
 
+#add-burgers-list {
+    background-color: rgb(243, 161, 8);
+}
+
 .form-group {
     color: black;
     font-weight: bold;
+}
+
+li {
+    color: black;
+    font-weight: bold; 
 }
 
 body {
